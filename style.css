@@ -1,0 +1,106 @@
+main {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    align-items: center;
+
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+body {
+    background-color: #bac1b8;
+}
+
+.banner {
+    img {
+        width: 100%;
+    }
+
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    /* Change background color */
+    padding: 50px;
+    /* Add padding */
+    border-bottom: 2px solid #ccc;
+    /* Add a border */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    /* Adjust font size */
+    color: #333;
+    /* Change text color */
+    text-align: center;
+}
+
+.nav-link {
+    color: #555;
+    /* Change link color */
+}
+
+.nav-link:hover {
+    color: #000;
+    /* Change link color on hover */
+
+}
+
+.navbar-collapse {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.produtos {
+    align-items: center;
+    flex-direction: row;
+}
+
+.titulo h3 {
+    color: #0a9e2f;
+}
+
+.Mini-Sobre {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.Mini-Sobre .left {
+    flex: 1 1 50%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    img {
+        width: 10px;
+        align-items: center;
+    }
+}
+
+.Mini-Sobre .right {
+    flex: 1 1 50%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    h5{
+        text-align: right;
+    }
+}
+
+.mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1 img{
+        width: 10px;
+}
