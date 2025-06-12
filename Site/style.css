@@ -69,20 +69,29 @@ body {
 }
 
 .titulo h3 {
-    color: #0a9e2f;
+    color: #168850;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .Mini-Sobre {
     display: flex;
     margin-top: 10px;
     margin-bottom: 50px;
+    gap: 20px;
 }
 
-.Mini-Sobre .left {
+.Mini-Sobre .left img {
     flex: 1 1 50%;
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
+
+    h3{
+        color: #168850;
+        font-family: 'Archivo Black', sans-serif;
+
+    }
 
     img {
         width: 20%;
@@ -93,11 +102,13 @@ body {
 .Mini-Sobre .right {
     flex: 1 1 50%;
     display: flex;
+    flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
 
     h5{
-        text-align: right;
+        text-align: left;
+        
     }
 }
 
@@ -106,5 +117,36 @@ body {
 }
 
 .logo-footer{
-    width: 10px;
+    width: 80px;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.nav-link[href="Contato"]{
+    color: #168850;
+}
+
+.nav-link[href="Contato"]:hover{
+    color: #f6e900;
+}
+
+.navbar-brand{
+    color: #168850;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.navbar-brand:hover{
+    color: #168850;
+}
+
+.nav-link{
+    font-family: "Archivo Black", sans-serif;
+}
+
+.produtos .row{
+    padding-right: 0;
 }

@@ -8,6 +8,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
 </head>
 
 
@@ -43,11 +48,6 @@
       </nav>
   </header>
 
-  <div class="banner">
-
-    <img src="imagens/Safra-Cheia.png">
-  </div>
-
   <main>
 
     <?php
@@ -67,7 +67,7 @@
     ?>
   </main>
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
     <div class="col-md-4 d-flex align-items-center">
       <a class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
         <img class="logo-footer" src="imagens/LogoSemFundo.png">
