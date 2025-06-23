@@ -1,23 +1,4 @@
-<div class="banner">
-
-    <img src="imagens/Safra-Cheia.png">
-  </div>
-      <section>
-        <div class="titulo">
-          <h3>Nossa Empresa</h3>
-            <section class="Mini-Sobre">
-            <h5>
-              <p>Somos uma empresa especializada no cuidado e manejo do solo para agricultores
-              Oferecemos soluções sustentáveis que aumentam a produtividade e preservam o meio ambiente.
-              Com tecnologia e conhecimento técnico, ajudamos o campo a crescer com saúde e eficiência.</p>
-            </h5>
-            </section>
-              <section class="button-sobre">
-                  <button type="button" class="btn btn-success" onclick="location.href='Sobre'">Conheça-nos</button>
-              </section>     
-        </div>
-      </section>
-      <section>
+  <section>
         <div class="produtos">
           <div class="row">
             
